@@ -1,38 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Putera Adhi Perkasa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-</head>
-<body>
-   
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-        <div class="container">
-            <img src="logo.png" alt="PAP Logo" class="img-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="btn btn-dark">Artikel</a>
-                    </li>
-                  
-                </ul>
-            </div>
-        </div>
-    </nav>
+@extends('layouts.Index')
 
-    
+@section('title')
+Profile
+@endsection
+
+@section('content')
+
     <section class="about py-5 border-bottom ">
         <div class="text-center ">
             <h1 class="mb-4">Tentang Perusahaan</h1>
         </div>
         <div class="container text-left">
-            
+
             <div class="row align-items-left ">
                 <div class="col-md-5">
                     <h2>PT. Putera Adhi Perkasa</h2>
@@ -47,7 +26,7 @@
         </div>
     </section>
 
-   
+
     <section class="vision-mission py-5 bg-white">
         <div class="container">
             <h2 class="text-left mb-4 ">VISI</h2>
@@ -62,25 +41,4 @@
             <p>Kesuksesan PT. Putera Adhi Perkasa lahir karena adanya pelayanan optimal yang profesional dan komitmen untuk selalu fokus akan kebutuhan konsumen di Indonesia.</p>
         </div>
     </section>
-
-   
-    <footer class="footer bg-dark text-light py-4">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-2 text-left">
-                    <img src="logo.png" alt="PAP Logo" class="img-fluid">
-                </div>
-                <div class="col-md-8 text-center">
-                    <p><a href="https://wa.me/6289651502727" class="text-light">Hubungi Kami</a></p>
-                </div>
-                <div class="col-md-2 text-center">
-                    <p><a href="#" class="text-light">Alamat</a></p>
-                </div>
-             
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection

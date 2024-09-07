@@ -1,15 +1,15 @@
 @extends('layouts.Index')
 
 @section('title')
-HomePage
+Artikel
 @endsection
 
 @section('content')
 
 <main class="container my-5">
 
-    <div class="rightSvg">
-        <img src="{{ url('frontend/images/bg-kontl.svg') }}" alt="SVG Image bg kran" class="img-fluid">
+    <div class = "rightSvg">
+    <img src   = "{{ url('frontend/images/bg-kontl.svg') }}" alt = "SVG Image bg kran" class = "img-fluid">
     </div>
 
     <section class="row align-items-center mb-5">

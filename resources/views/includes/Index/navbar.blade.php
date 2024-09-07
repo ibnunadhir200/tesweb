@@ -4,8 +4,8 @@
             <img src="{{ url('frontend/images/logo_tokontol.png') }}" alt="Logo" class="img-fluid">
         </div>
         <nav>
-            <a href="#" class="btn btn-dark">Artikel</a>
-            <a href="#" class="btn btn-dark">My Profile</a>
+            <a href="{{ route('index') }}" class="btn btn-dark">Artikel</a>
+            <a href="{{ route('profile.index') }}" class="btn btn-dark">My Profile</a>
         </nav>
     </div>
 </header>
