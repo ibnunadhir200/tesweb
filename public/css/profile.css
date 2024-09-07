@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.about h1 {
+    font-size: 3rem;
+    color: #000;
+}
+
+.about h2 {
+    color: #333;
+}
+
+.vision-mission {
+    background-color: #f8f9fa;
+}
+
+.vision-mission h2 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.vision-mission h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
