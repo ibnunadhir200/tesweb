@@ -19,8 +19,8 @@ Profile
                     <p>Kualitas dan kenyamanan produk untuk konsumen selalu menjadi fokus utama kami, sehingga kami dapat terus berkembang dan telah menjangkau pasar hampir ke seluruh wilayah di Indonesia.</p>
                     <a href="https://wa.me/6289651502727" class="btn btn-dark">Hubungi Kami</a>
                 </div>
-                <div class="col-md-6 text-left">
-                    <img src="logo.png" alt="PAP Logo" class="img-fluid" align = "right">
+                <div class="col-md-6 " align = "right" >
+                    <img src   = "{{ url('frontend/images/logo_tokontol.png') }}" alt = "Logo" class = "img-fluid">
                 </div>
             </div>
         </div>

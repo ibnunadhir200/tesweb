@@ -12,7 +12,13 @@ Artikel
     <img src   = "{{ url('frontend/images/bg-kontl.svg') }}" alt = "SVG Image bg kran" class = "img-fluid">
     </div>
 
+    <div class="col-md-15 border-bottom py-5 border-collapse "> 
+        <img src="{{ url('frontend/images/banner.jpg') }}" alt="banner" class="img-fluid">
+    </div>
+
     <section class="row align-items-center mb-5">
+
+       
         <div class="col-md-6">
             <h2 class="display-5">Flusso Shower Blister</h2>
             <h3 class=" display -5">Pilihan Terbaik untuk Pengalaman Mandi yang Lebih Baik</h3>
@@ -35,7 +41,7 @@ Artikel
             </p>
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ url('frontend/images/kran-mki.png') }}" alt="Kran Angsa" class="img-fluid">
+            <img src="{{ url('frontend/images/shower-2008.png') }}" alt="Shower Blister" class="img-fluid">
         </div>
         <div class="text-left mb-5">
             <a href="https://wa.me/6289651502727" class = "btn btn-dark"> Hubungi kami</a>
@@ -71,7 +77,7 @@ Artikel
         </div>
     </div>
     <div class="col-md-6 order-md-1 text-center">
-        <img src="path-to-shower-tiang-image.jpg" alt="Shower Tiang" class="img-fluid">
+        <img src="{{ url('frontend/images/BCP-888.png') }}" alt="BCP" class="img-fluid">
     </div>
 </section>
 
@@ -100,7 +106,7 @@ Artikel
         </p>
     </div>
     <div class="col-md-6 text-center">
-        <img src="path-to-kran-tembok-image.jpg" alt="Kran Tembok" class="img-fluid">
+        <img src="{{ url('frontend/images/kran-tembok.png') }}" alt="kran tembok" class="img-fluid">
     </div>
     <div class="text-left mb-5">
         <a href="https://wa.me/6289651502727" class = "btn btn-dark"> Hubungi kami</a>
@@ -137,7 +143,7 @@ Artikel
 
     </div>
     <div class="col-md-6 order-md-1 text-center">
-        <img src="path-to-kran-wastafel-image.jpg" alt="Kran Wastafel" class="img-fluid">
+        <img src="{{ url('frontend/images/kran-angsa.png') }}" alt="kran angsa" class="img-fluid">
     </div>
 
 </section>
